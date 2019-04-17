@@ -1,16 +1,18 @@
 # sysfs
 
-[![Build Status](https://img.shields.io/travis/infOpen/ansible-role-sysfs/master.svg?label=travis_master)](https://travis-ci.org/infOpen/ansible-role-sysfs)
-[![Build Status](https://img.shields.io/travis/infOpen/ansible-role-sysfs/develop.svg?label=travis_develop)](https://travis-ci.org/infOpen/ansible-role-sysfs)
-[![Updates](https://pyup.io/repos/github/infOpen/ansible-role-sysfs/shield.svg)](https://pyup.io/repos/github/infOpen/ansible-role-sysfs/)
-[![Python 3](https://pyup.io/repos/github/infOpen/ansible-role-sysfs/python-3-shield.svg)](https://pyup.io/repos/github/infOpen/ansible-role-sysfs/)
-[![Ansible Role](https://img.shields.io/ansible/role/18028.svg)](https://galaxy.ansible.com/infOpen/sysfs/)
+[![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://img.shields.io/travis/Temelio/ansible-role-sysfs/master.svg?label=travis_master)](https://travis-ci.org/Temelio/ansible-role-sysfs)
+[![Build Status](https://img.shields.io/travis/Temelio/ansible-role-sysfs/develop.svg?label=travis_develop)](https://travis-ci.org/Temelio/ansible-role-sysfs)
+[![Updates](https://pyup.io/repos/github/Temelio/ansible-role-sysfs/shield.svg)](https://pyup.io/repos/github/Temelio/ansible-role-sysfs/)
+[![Python 3](https://pyup.io/repos/github/Temelio/ansible-role-sysfs/python-3-shield.svg)](https://pyup.io/repos/github/Temelio/ansible-role-sysfs/)
+[![Ansible Role](https://img.shields.io/ansible/role/18028.svg)](https://galaxy.ansible.com/Temelio/sysfs/)
+[![GitHub tag](https://img.shields.io/github/tag/temelio/ansible-role-sysds.svg)](https://github.com/Temelio/ansible-role-sysfs/tags)
 
 Install sysfs package.
 
 ## Requirements
 
-This role requires Ansible 2.2 or higher,
+This role requires Ansible 2.4 or higher,
 and platform requirements are listed in the metadata file.
 
 ## Testing
@@ -21,14 +23,16 @@ Local and Travis tests run tests on Docker by default.
 See molecule documentation to use other backend.
 
 Currently, tests are done on:
-- Debian Jessie
+- Debian Stretch
 - Ubuntu Trusty
 - Ubuntu Xenial
+- Ubuntu Bionic
 
 and use:
-- Ansible 2.2.x
-- Ansible 2.3.x
 - Ansible 2.4.x
+- Ansible 2.5.x
+- Ansible 2.6.x
+- Ansible 2.7.x
 
 ### Running tests
 
@@ -84,7 +88,7 @@ None
 ``` yaml
 - hosts: servers
   roles:
-    - { role: infOpen.sysfs }
+    - { role: temelio.sysfs }
 ```
 
 ## License
@@ -93,6 +97,5 @@ MIT
 
 ## Author Information
 
-Alexandre Chaussier (for Infopen company)
-- http://www.infopen.pro
-- a.chaussier [at] infopen.pro
+L Machetel (for Temelio Company)
+Fork from: Alexandre Chaussier (for Infopen company)
