@@ -1,11 +1,11 @@
 # sysfs
 
 [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/travis/Temelio/ansible-role-sysfs/master.svg?label=travis_master)](https://travis-ci.org/Temelio/ansible-role-sysfs)
-[![Build Status](https://img.shields.io/travis/Temelio/ansible-role-sysfs/develop.svg?label=travis_develop)](https://travis-ci.org/Temelio/ansible-role-sysfs)
+[![Build Status](https://img.shields.io/travis/Temelio/ansible-role-sysfs/master.svg?label=travis_master)](https://travis-ci.com/Temelio/ansible-role-sysfs)
+[![Build Status](https://img.shields.io/travis/Temelio/ansible-role-sysfs/develop.svg?label=travis_develop)](https://travis-ci.com/Temelio/ansible-role-sysfs)
 [![Updates](https://pyup.io/repos/github/Temelio/ansible-role-sysfs/shield.svg)](https://pyup.io/repos/github/Temelio/ansible-role-sysfs/)
 [![Python 3](https://pyup.io/repos/github/Temelio/ansible-role-sysfs/python-3-shield.svg)](https://pyup.io/repos/github/Temelio/ansible-role-sysfs/)
-[![Ansible Role](https://img.shields.io/ansible/role/18028.svg)](https://galaxy.ansible.com/Temelio/sysfs/)
+[![Ansible Role](https://img.shields.io/ansible/role/39665.svg)](https://galaxy.ansible.com/Temelio/sysfs/)
 [![GitHub tag](https://img.shields.io/github/tag/temelio/ansible-role-sysds.svg)](https://github.com/Temelio/ansible-role-sysfs/tags)
 
 Install sysfs package.

@@ -1,6 +1,7 @@
 ---
 
 galaxy_info:
+  role_name: 'sysfs'
   author: 'A Chaussier, L Machetel'
   description: 'Install and configure sysfs rules'
   company: 'Temelio (https://www.temelio.com)'
