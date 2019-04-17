@@ -1,20 +1,22 @@
 ---
 
 galaxy_info:
-  author: 'Alexandre Chaussier'
-  description: 'Ansible role to manage sys FS rules'
-  company: 'Infopen (http://www.infopen.pro)'
+  role_name: 'sysfs'
+  author: 'A Chaussier, L Machetel'
+  description: 'Install and configure sysfs rules'
+  company: 'Temelio (https://www.temelio.com)'
   license: 'MIT'
-  min_ansible_version: '2.0'
+  min_ansible_version: '2.4'
   github_branch: 'master'
   platforms:
     - name: 'Debian'
       versions:
-        - 'jessie'
+        - 'stretch'
     - name: 'Ubuntu'
       versions:
         - 'trusty'
         - 'xenial'
+        - 'bionic'
   galaxy_tags:
     - 'system'
 dependencies: []

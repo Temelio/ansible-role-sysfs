@@ -1,10 +1,12 @@
 """
-Role installation tests
+Role tests
 """
 
+import os
 from testinfra.utils.ansible_runner import AnsibleRunner
 
-testinfra_hosts = AnsibleRunner('.molecule/ansible_inventory').get_hosts('all')
+testinfra_hosts = AnsibleRunner(
+    os.environ['MOLECULE_INVENTORY_FILE']).get_hosts('all')
 
 
 def test_packages(host):
@@ -33,6 +35,6 @@ def test_sysfs_utils_service(host):
 
     assert host.service(service).is_enabled
 
-    # Systemctl not available with Docker images
-    if 'docker' != host.backend.NAME:
+    # Ststus is not available with Trusty init.d file
+    if host.system_info.codename != 'trusty':
         assert host.service(service).is_running
